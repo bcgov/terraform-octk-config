@@ -12,7 +12,7 @@ Terraform Open Cloud Tool Kit Config
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws.master-account"></a> [aws.master-account](#provider\_aws.master-account) | ~> 4.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 4.0 |
 
 ## Modules
 

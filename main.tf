@@ -4,7 +4,6 @@ variable "ssm_parameter_names" {
 }
 
 data "aws_ssm_parameter" "this" {
-  provider = aws.master-account
   for_each = toset(var.ssm_parameter_names)
   name     = each.key
 }
